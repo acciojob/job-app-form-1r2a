@@ -10,14 +10,62 @@
 	<!-- the entire body must be written by student -->
 
 	<form method="get">
-		<lable for="name">Name</lable>
-		<input id="name" type="text" required>
-		
-		<lable for="email">Email</lable>
-		<input id="email" type="mail" required>
+		<div>
+			<lable for="name">Name*</lable>
+			<input id="name" type="text" required>
+		</div>
 
-		<lable for="gender">Gender</lable>
-		<input type="radio" required>
+		<div>
+			<lable for="email">Email*</lable>
+			<input id="email" type="email" required>
+		</div>
+		
+		<div>
+			<lable for="gender">Gender*</lable>
+			<lable for="gender">Male</lable>
+			<input type="radio" required name="gender">
+			<lable for="gender">Female</lable>
+			<input type="radio" required name="gender">
+			<lable for="gender">Others</lable>
+			<input type="radio" required name="gender">
+		</div>
+
+		<div>
+			<lable for="">Laptop Brands</lable>
+
+			<lable for="apple">Apple</lable>
+			<input type="checkbox" id="apple">
+
+			<lable for="asus">Asus</lable>
+			<input type="checkbox" id="asus">
+
+			<lable for="hp">HP</lable>
+			<input type="checkbox" id="hp">
+		</div>
+
+		<div>
+			<label for="age">Age*</label>
+			<input type="number" required id="age">
+		</div>
+
+		<div>
+			<label for="dob">DOB*</label>
+			<input type="date" required id="dob">
+		</div>
+
+		<div>
+			<label for="password">Password*</label>
+			<input type="password" required id="password">
+		</div>
+
+		<div>
+			<button type="submit">Submit</button>
+		</div>
+
+		<div>
+			<lable for="portfolio">website URL</lable>
+			<input type="url" id="portfolio">
+		</div>
 		
 	</form>
     <script type="text/javascript" src="./script.js">
